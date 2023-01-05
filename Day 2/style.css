@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: blanchedalmond;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 213, 150);
+}
+nav ul{
+    padding-right: 50px;
+}
+
+nav ul li{
+    padding: 20px;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: brown;
+}
+nav ul li a:hover{
+    color:black;
+    transition: .5s;
+}
+
+.logo{
+    color: brown;
+    padding-left: 100px;
+}
+
+span{
+    color:black;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+h1{
+    color: black ;
+    font-size: 90px;
+}
+
+h4{
+    font-size: 20px;
+    color: brown;
+}
+
+h3{
+    font-size: 35px;
+    color:brown;
+}
